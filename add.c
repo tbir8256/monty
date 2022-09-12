@@ -23,7 +23,7 @@ free(temp1);
 }
 else
 {
-dprintf (2, "L%d: can't add, stack too short\n", num_line);
+dprintf(2, "L%d: can't add, stack too short\n", num_line);
 free(global.line);
 fclose(global.fil);
 free_l(stack);

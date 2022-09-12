@@ -14,7 +14,7 @@ if (temp == NULL)
 free(global.line);
 fclose(global.fil);
 free_l(stack);
-dprintf (2, "L%u: can't pint, stack empty\n", num_line);
+dprintf(2, "L%u: can't pint, stack empty\n", num_line);
 exit(EXIT_FAILURE);
 }
 printf("%d\n", temp->n);

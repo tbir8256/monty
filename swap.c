@@ -23,7 +23,7 @@ temp->prev = NULL;
 }
 else
 {
-dprintf (2, "L%u: can't swap, stack too short\n", num_line);
+dprintf(2, "L%u: can't swap, stack too short\n", num_line);
 free(global.line);
 fclose(global.fil);
 free_l(stack);
